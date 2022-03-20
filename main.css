@@ -1,0 +1,111 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #D5E4E4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1336px;
+    height: 800px;
+    margin:auto;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 33% 67%;
+    background: white;
+    border-radius: 25px;
+}
+
+
+.container img {
+    overflow: auto;
+    height: 100%;
+    border-radius: 25px 0 0 25px;
+}
+
+.boat{
+    background: url(img/boat.jpg);
+    background-size: cover;
+    border-radius: 25px 0 0 25px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caption{
+    width: 75%;
+}
+
+.caption h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.caption p {
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.activities{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 75%;
+}
+
+.act-btn{
+    width: 283px;
+    padding: 22px 20px 22px 25px;
+    background-color: white;
+    border:1px solid  #D6D5E4;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.act-btn h1{
+    margin-left: 25px;
+}
+.arrow{
+    display: flex;
+    margin-right: 20px;
+    margin: 0;
+
+    width: 36px;
+    height: 36px;
+
+    line-height: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #00A793;
+    font-weight: 700; 
+    background: rgba(0, 167, 147, 0.1);
+    border: 1px solid #00A793;
+    border-radius: 100%;
+    
+    
+}
+
+.act-btn:hover {
+    background-color: #006D6F;
+    color: white;
+    transition: background .3s;
+
+}
+
+
